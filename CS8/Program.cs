@@ -12,6 +12,7 @@ namespace CS8
             message = Console.ReadLine();
             Console.Write("Введите количество повторов сообщения: ");
             numberRepetitions = Convert.ToInt32(Console.ReadLine());
+            
             for (int i = 0; i < numberRepetitions; i++)
             {
                 Console.WriteLine(message);
